@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <script>
+//<![CDATA[
+window.gon={};
+//]]>
+</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" >
+    <title>뷰티넷</title>
+
+    <meta property="og:url" content="http://bo.beautynet.co.kr">
+    <meta property="og:title" content="백오피스">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/assets/logo_meta_tag-bb54be7f964c0ce15619ae3fc10a03516ff99e87fdec56e05e9e77e77ab4b9ea.png">
+    <meta property="og:description" content="뷰티넷 백오피스">
+
+    <meta name="description" content="백오피스">
+    <link href="../favicon.ico" rel="shortcut icon" />
+
+      <link rel="stylesheet" media="all" href="../main.css" />
+
+      <script src="../main.js"></script>
+
+      <script src="../i18n.js"></script>
+
+  </head>
+
+  <body class="documentations sdk_android  navleft-visible navleft-gone" data-spy="scroll" data-target=".scrollspy">
+    <header>
+        <nav id="navtop" class="navbar navbar-default navbar-fixed-top nav-shadow">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="header_logo">
+              <a id="brand-logo" href="/ko"></a>
+              <a class="header_title" href="/">Documentation</a>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    <div class="main-container">
+      <div id="guide_main">
+        <div class="col-md-2 left-nav">
+        <ul class="affix left-ul" data-spy="affix" data-offset-top="0">
+          <li>
+            <label>가이드라인</label>
+            <ul class="group-list">
+              <li><a id="gl_start_btn" class="doc-nav-btn" href="../index.html">방화벽 신청</a></li>
+              <li><a id="gl_report_btn" class="doc-nav-btn" href="idInfo.html">백오피스 계정 신청</a></li>
+              <li><a id="gl_report_btn" class="doc-nav-btn" href="hostInfo.html">호스트 변경</a></li>
+              </li>
+            </ul>
+          </li><br>
+          <li>
+            <label>html 가이드</label>
+            <ul class="group-list">
+              <li><a id="guide_android_btn" class="doc-nav-btn" href="/ko/documentations/sdk_android">슬라이더</a></li>
+              <li><a id="guide_ios_btn" class="doc-nav-btn" href="/ko/documentations/sdk_ios_swift">이미지 스케쥴링</a></li>
+              <li><a id="guide_ios_btn" class="doc-nav-btn" href="/ko/documentations/sdk_ios_obc">Tab</a></li>
+              <li><a id="guide_ios_btn" class="doc-nav-btn" href="/ko/documentations/sdk_ios_obc">영상 삽입</a></li>
+              <li class="unity_position"><a id="guide_unity3d_btn" class="doc-nav-btn" href="/ko/documentations/sdk_unity3d">Unity</a><span class="name_beta">BETA</span></li>
+            </ul>
+          </li><br>
+          <li>
+            <li><a id="sdk_history_btn" class="doc-nav-btn labeling" href="/ko/documentations/sdk_update">업데이트 히스토리</a></li>
+          </li><br>
+          <li>
+            <a id="sdk_history_btn" class="doc-nav-btn labeling" href="/ko/documentations/faq">FAQ</a>
+          </li><br>
+          <li>
+            <a id="sdk_history_btn" class="doc-nav-btn labeling" href="/ko/documentations/glossary">용어집</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-2 col-xs-12 dropdown drop-nav">
+        <button class="btn btn-default dropdown-toggle btn-drop" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+          목록
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+          <li role="presentation" class="dropdown-header">가이드라인</li>
+          <li role="presentation"><a id="gl_start_btn" class="doc-nav-btn" role="menuitem" tabindex="-1" href="/ko/documentations/guideline_start">시작하기</a></li>
+          <li role="presentation"><a id="gl_report_btn" class="doc-nav-btn" href="/ko/documentations/guideline_report">분석 보고서</a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation" class="dropdown-header">SDK Doc</li>
+          <li role="presentation"><a id="guide_android_btn" class="doc-nav-btn" href="/ko/documentations/sdk_android">안드로이드</a></li>
+          <li role="presentation"><a id="guide_ios_btn" class="doc-nav-btn" href="/ko/documentations/sdk_ios_swift">iOS (Swift)</a></li>
+          <li role="presentation"><a id="guide_ios_btn" class="doc-nav-btn" href="/ko/documentations/sdk_ios_obc">iOS (Objective-C)</a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a id="sdk_history_btn" class="doc-nav-btn labeling" href="/ko/documentations/sdk_update">업데이트 히스토리</a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a id="sdk_history_btn" class="doc-nav-btn labeling" href="/ko/documentations/faq">FAQ</a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a id="sdk_history_btn" class="doc-nav-btn labeling" href="/ko/documentations/glossary">용어집</a></li>
+        </ul>
+      </div>
+
+      <script>
+          $(function(){
+              $(".dropdown-menu li a").click(function(){
+                  $('.btn-drop').html($(this).text()+ ' <span class="caret"></span>');
+                  $('.btn-drop').val($(this).text());
+
+              });
+          });
+      </script>
+
+      <div class="col-md-2 col-xs-12 subnav">
+        <ul class="affix-top right-ul" data-spy="affix" data-offset-top="0">
+          <label>CONTENTS</label>
+          <li>
+            <a href="#guide_android" class="jumper" data-uhga-action="안드로이드" data-uhga-label="스크롤 데이터 추적하기">백오피스 가이드</a>
+          </li>
+          <li>
+            <a href="#g_android_sdk" class="jumper" data-uhga-action="안드로이드" data-uhga-label="계정 신청">계정 신청</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-8 col-xs-12 contents">
+        <section id="guide_android" class="main-section">
+          <h3>뷰티넷 백오피스 가이드</h3>
+          <a href="http://bo.beautynet.co.kr/" data-uhga-action="안드로이드" data-uhga-label="다운로드">
+            <button class="btn btn-default btn-sm btn-top" id="btn-sdk-download-info">
+              <strong>BackOffice 바로가기</strong></button>
+          </a>
+          <p><strong>백오피스란 뷰티넷을 관리하기 위한 관리자 사이트입니다.</strong><br/></p>
+          <div class="bs-callout bs-callout-warning">
+            <p><span>주의!</span>백오피스에 접근하기 위해서는 다음과 같은 사항들이 필요합니다.<br></p>
+            <ul>
+              <li>방화벽 신청</li>
+              <li>백오피스 계정 신청</li>
+            </ul>
+          </div>
+
+          <section id="g_android_sdk">
+            <h4>1. 백오피스 계정 신청</h4>
+            <p>백오피스에서 사용할 계정 신청이 필요합니다.</p>
+            <h5>1) 그룹웨어 전자결재 > 계정 신청</h5>
+            <p>전자결재 > 온라인 > 쇼핑몰 관리자권한 등록/변경 신청서</p>
+
+            <h5>2) 참고사항 확인 </h5>
+            <img src="../images/notice.png" />
+            <h5>3) 개인정보 입력 </h5>
+            <p>① 항목에 맞게 빈칸을 모두 채워 줍니다.</p>
+            <p>- <strong>권한 신청</strong> : 신규  </p>
+            <p>- <strong>권한 말소</strong> : 퇴사자 </p>
+            <p>- <strong>권한 추가/변경</strong> : 기존 아이디 추가 권한신청 </p>
+            <p>② <strong>결제라인</strong> : 각 팀장</p>
+            <p><strong>※ 접수자는 따로 추가 안하셔도 됩니다.</strong></p>
+            <img src="../images/idInfo.png" />
+
+            <h5>4) 권한 신청 </h5>
+            <p>신청 할 권한을 요청사항에 기입해주시기 바랍니다.</p>
+            <img src="../images/required.png" />
+            <strong>
+            <p>예1) 공통정책 > 거래처관리 > 읽기 권한 or 모든권한 </p>
+            <p>예2) OOO사원 과 동일한 권한 </p>
+            </strong>
+          </section>
+        </section>
+        <div id="guide_feedback">
+          <hr class="separator"/>
+          <span>더 궁금한 사항은 <a href="#" data-uhga-action="클릭" data-uhga-label="아래연락하기">ssc0421@beautynet.co.kr</a>으로 연락해주시면 답변해드리겠습니다.</span>
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer id="footer" class="expression">
+    <br/>
+  </footer>
+</html>
+
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==='function'){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/ne6pr0t0';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>

@@ -1,0 +1,41 @@
+﻿#개발
+192.168.250.3	www.beautynet.co.kr
+192.168.250.3	missha.beautynet.co.kr
+192.168.250.3	mika.beautynet.co.kr
+192.168.250.3	apieu.beautynet.co.kr
+192.168.250.3	m.beautynet.co.kr
+192.168.250.3	mo.beautynet.co.kr
+192.168.250.3	bo.beautynet.co.kr
+192.168.250.3	shop.beautynet.co.kr
+192.168.250.3	ms.beautynet.co.kr
+192.168.250.3	mc.beautynet.co.kr
+192.168.250.3	swisspure.beautynet.co.kr
+192.168.250.3	eaudelove.beautynet.co.kr
+
+# 스테이지
+211.239.167.228	www.beautynet.co.kr
+211.239.167.228	missha.beautynet.co.kr
+211.239.167.228	mika.beautynet.co.kr
+211.239.167.228	apieu.beautynet.co.kr
+211.239.167.228	swisspure.beautynet.co.kr
+211.239.167.228	m.beautynet.co.kr
+211.239.167.228	mo.beautynet.co.kr
+211.239.167.228	bo.beautynet.co.kr
+211.239.167.228	shop.beautynet.co.kr
+211.239.167.228	ms.beautynet.co.kr
+211.239.167.228	mc.beautynet.co.kr
+211.239.167.228	eaudelove.beautynet.co.kr
+
+#운영 1번
+211.239.167.227	www.beautynet.co.kr
+211.239.167.227	missha.beautynet.co.kr
+211.239.167.227	mika.beautynet.co.kr
+211.239.167.227	apieu.beautynet.co.kr
+211.239.167.227	swisspure.beautynet.co.kr
+211.239.167.227	eaudelove.beautynet.co.kr
+211.239.167.227	m.beautynet.co.kr
+211.239.167.227	mo.beautynet.co.kr
+211.239.167.227	shop.beautynet.co.kr
+211.239.167.227	ms.beautynet.co.kr
+211.239.167.227	mc.beautynet.co.kr
+211.239.167.243	bo.beautynet.co.kr
